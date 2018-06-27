@@ -5,6 +5,6 @@ def prime?(integer)
   if integer<1
   return FALSE
 else
-  
+  range.each
   
 end
