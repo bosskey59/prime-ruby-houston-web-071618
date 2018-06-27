@@ -4,7 +4,6 @@ def prime?(integer)
   range = (2...integer)
   if integer<1
     return FALSE
-  end
   else
     range.each do |x| 
       if integer%x==0 
@@ -12,5 +11,6 @@ def prime?(integer)
       end
     end
     return TRUE
+  end
   
 end
